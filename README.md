@@ -9,4 +9,5 @@ Based on my availability of my schedule i will be including scenarios, examples 
 - SaltStack
 
 # Puppet
-![alt tag](https://cloud.githubusercontent.com/assets/17361962/26607366/29a2665e-4564-11e7-8a56-e72e7420af38.PNG)
+create a issue copy the image and copy the url to edit it
+use --- ![alt tag](url/img.PNG) -- 
