@@ -9,4 +9,4 @@ Based on my availability of my schedule i will be including scenarios, examples 
 - SaltStack
 
 # Puppet
-https://cloud.githubusercontent.com/assets/17361962/26607366/29a2665e-4564-11e7-8a56-e72e7420af38.PNG
+![alt tag](https://cloud.githubusercontent.com/assets/17361962/26607366/29a2665e-4564-11e7-8a56-e72e7420af38.PNG)
