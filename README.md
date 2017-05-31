@@ -61,8 +61,12 @@ The following command shows the list of resources available on puppet
   
   Both the server and client **IP Address** should be mentioned in /etc/hosts file in order to communciate with each other.
    
+   Once completing the above step create ** SSL Certificate** on master for secure authentication purpose 
+   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611856/1304014e-457f-11e7-8c57-f7c917960392.PNG)
    
-
+   Install "puppet rpm_module" on client to install puppet and then execute " puppet agent -t " 
+   
+   Execute "puppet ca --sign 'client.node.com' " on Puppet Master node or server to accept the ca certificate from client for establishing secure communication.
 
 
 
