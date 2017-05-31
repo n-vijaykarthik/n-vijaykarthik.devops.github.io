@@ -68,4 +68,16 @@ The following command shows the list of resources available on puppet
    Execute "puppet ca --sign 'client.node.com' " on Puppet Master node or server to accept the ca certificate from client for establishing secure communication.
 
 
+- The following is the manifest file that needs to be edited on Puppet Master node or server for every new client
+  create a file named "site.pp" in /etc/puppet/manifests/
+  //node default{
+  node client1.xyz.com{
+  file {'/etc/motd':
+  content => 'My Testing Content',
+  }
 
+  service{'postfix':
+  ensure=>'stopped'
+  enable=>'false',
+  }
+  }
