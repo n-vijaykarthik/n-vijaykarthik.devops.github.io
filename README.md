@@ -48,6 +48,7 @@ The following command shows the list of resources available on puppet
    ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611502/b8c0d164-457c-11e7-9ec4-92b32dd6f8a7.PNG)
    
    In case if any installed module requires uninstallation then following command can be used for uninstalling of unwanted modules
+   Make sure to check the modulename that needs to uninstalled. example shows vim cannot be uninstalled but dhoppe-vima can be uninstalled.
    ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611518/d965c6ae-457c-11e7-9bb9-0c9c1915463f.PNG)
    
    
