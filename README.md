@@ -27,6 +27,30 @@ Execute the following command for installing puppet server
 you will finally see some dependencies been processed and finally the following message confirms that puppet server is installed
 ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611200/a7bdbd7a-457a-11e7-8500-dba4de551f82.PNG)
 
+The following command shows the list of resources available on puppet
+![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611311/7e286cf2-457b-11e7-94ad-796f5006f7fc.PNG)
+
+- To install a specific module using puppet execute the following command
+  for example "vim" is not installed in the exisiting..
+  
+  ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611355/d0ed6884-457b-11e7-810a-6b7ad64fe4a1.PNG)
+  
+   As of today there are 4k+ modules available on puppet forge.
+   
+   execute the following command to install "vim" online(using internet) from puppet forge which give a lot of options
+   select any of the "vims" that is required as per the scenario.
+   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611383/f5308e60-457b-11e7-8f07-273ee76dc7d1.PNG)
+   
+   Following is to install dhoppe-vim from puppet forge.
+   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611457/6cec90c0-457c-11e7-9edd-bc11b1e39277.PNG)
+   
+   Once installation is done, check it using the following command
+   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611502/b8c0d164-457c-11e7-9ec4-92b32dd6f8a7.PNG)
+   
+   In case if any installed module requires uninstallation then following command can be used for uninstalling of unwanted modules
+   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611518/d965c6ae-457c-11e7-9bb9-0c9c1915463f.PNG)
+   
+   
 
 
 
