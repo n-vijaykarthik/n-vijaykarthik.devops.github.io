@@ -48,8 +48,18 @@ The following command shows the list of resources available on puppet
    ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611502/b8c0d164-457c-11e7-9ec4-92b32dd6f8a7.PNG)
    
    In case if any installed module requires uninstallation then following command can be used for uninstalling of unwanted modules
-   Make sure to check the modulename that needs to uninstalled. example shows vim cannot be uninstalled but dhoppe-vima can be uninstalled.
+   Make sure to check the modulename that needs to uninstalled. example shows vim cannot be uninstalled but dhoppe-vim can be uninstalled.
    ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611518/d965c6ae-457c-11e7-9bb9-0c9c1915463f.PNG)
+   
+  -  The following is to install a puppet master and agent nodes if for Compex Infrastructure where more than one node needs continous automation.
+  The puppet config file has two parts [agent] is generally the number of nodes or clients on which you need to install puppet and 
+  [main] where actual master or server node details are given.
+  ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611710/f0c7b59a-457d-11e7-8879-bcbca401f364.PNG)
+  
+  The following config shows adding master for DNS
+  ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611771/6964a5ee-457e-11e7-9c84-94ca8c7f88e4.PNG)
+  
+  
    
    
 
