@@ -59,7 +59,7 @@ The following command shows the list of resources available on puppet
   The following config shows adding master for DNS
   ![alt tag](https://cloud.githubusercontent.com/assets/17361962/26611771/6964a5ee-457e-11e7-9c84-94ca8c7f88e4.PNG)
   
-  
+  Both the server and client **IP Address ** should be mentioned in /etc/hosts file in order to communciate with each other.
    
    
 
